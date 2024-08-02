@@ -105,8 +105,8 @@ public class BaseTest {
     }
 
     public void loginToKoelApp(){
-        provideEmail("demo@class.com");
-        providePassword("te$t$tudent");
+        provideEmail("aaron.houchin@testpro.io");
+        providePassword("Arho!030");
         clickSubmit();
     }
 
