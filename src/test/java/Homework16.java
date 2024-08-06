@@ -31,7 +31,7 @@ public class Homework16 extends BaseTest {
         registrationPage.click();
 
         //Assertion
-        WebElement registration = driver.findElement(By.linkText("https://qa.koel.ap/registration"));
+        WebElement registrationPage = driver.findElement(By.linkText("https://qa.koel.ap/registration"));
         Assert.assertTrue(registrationPage.isDisplayed());
 
         //Quit
